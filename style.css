@@ -1,0 +1,46 @@
+.home{
+    background-image: url('./BG.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.phonescreen{
+    background-image: url('./pattern.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size:90% 70%;
+   
+}
+.appworks{
+    background-image: url('./bgpattern2.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.manage{
+    background-image: url('./bgpattern2.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.secure{
+    background-image: url('./securebg.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.rotation{
+    
+    
+    
+    animation: ellipseRotate 15s ease-in-out infinite;
+   }
+ 
+   @keyframes ellipseRotate{
+   0%{
+    transform: rotate(0deg);
+   }
+   100%{
+   transform: rotate(-360deg);
+   }
+   }
